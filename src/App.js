@@ -1,7 +1,12 @@
+import { getPopularMovies } from "./utils/getPopularMovies";
+
 function App() {
   return (
     <div className="App">
-      Hello world
+      <button type='button' onClick={() => getPopularMovies()} >
+        getPopularMovies
+        
+      </button>
     </div>
   );
 }
