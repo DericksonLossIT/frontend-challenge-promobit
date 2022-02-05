@@ -4,12 +4,12 @@ import { ReactComponent as Logo } from '../../assets/logo.svg'
 import './styles.css'
 
 
-const Navbar = () => {
+const Header = () => {
   return (
-      <div className="navbar">
-        <Logo className="navbar-logo" title="TMDB logo"/>
-      </div>
+      <nav>
+        <Logo className="header-logo" title="TMDB logo"/>
+      </nav>
   );
 };
 
-export default Navbar;
+export default Header;
